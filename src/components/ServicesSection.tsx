@@ -75,7 +75,7 @@ export default function ServicesSection() {
               viewport={{ once: true }}
               className="group bg-surface rounded-3xl overflow-hidden border border-slate-100 flex flex-col lg:flex-row h-full shadow-sm hover:shadow-xl transition-all duration-500"
             >
-              <div className="lg:w-2/5 relative h-64 lg:h-auto overflow-hidden">
+              <div className="relative aspect-square w-full overflow-hidden lg:h-auto lg:w-2/5 lg:aspect-auto">
                 <img 
                   src={service.image} 
                   alt={service.title}
