@@ -155,7 +155,7 @@ export default function Home() {
                     key={i}
                     initial={{ opacity: 0, scale: 0.95 }}
                     whileInView={{ opacity: 1, scale: 1 }}
-                    whileHover={{ y: -5, shadow: "0 20px 25px -5px rgb(0 0 0 / 0.1)" }}
+                    whileHover={{ y: -5, boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1)" }}
                     transition={{ delay: i * 0.1 }}
                     viewport={{ once: true }}
                     className="p-6 bg-white rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl transition-all space-y-4 group cursor-default"

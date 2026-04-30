@@ -4,6 +4,9 @@
     "experimentalDecorators": true,
     "useDefineForClassFields": false,
     "module": "ESNext",
+    "strict": false,
+    "incremental": true,
+    "esModuleInterop": true,
     "lib": [
       "ES2022",
       "DOM",
@@ -33,6 +36,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
+    ".next/dev/types/**/*.ts",
     ".next/types/**/*.ts"
   ],
   "exclude": [
